@@ -4,7 +4,7 @@ from PIL import ImageTk, Image
 
 root = Tk()
 root.title("IconsandImages")
-root.iconbitmap('c:/users/meghg/desktop/donkey.ico')
+root.iconbitmap('donkey.ico')
 
 my_img = ImageTk.PhotoImage(Image.open("wollongong.jpeg"))
 mylabel = Label(image=my_img)
