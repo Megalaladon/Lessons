@@ -7,7 +7,7 @@ root.title("Message Boxes")
 root.iconbitmap('donkey.ico')
 
 def popup():
-    response = messagebox.showinfo("This is my popup","Hello World!")
+    response = messagebox.askokcancel("This is my popup","Hello World!")
     Label(root,text=response).pack()
    # if response=="yes":
         #Label(root,text="you clicked yes!").pack()
