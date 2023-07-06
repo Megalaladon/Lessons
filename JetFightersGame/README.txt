@@ -1,1 +1,0 @@
-A Jet Fighting Game created by Megh
